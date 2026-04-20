@@ -939,7 +939,7 @@ union OutboundType {
 /*
  * The SKU of the managed Azure Bastion. The default is 'Standard'. See https://learn.microsoft.com/en-us/azure/bastion/bastion-sku-comparison for more information about the differences between Azure Bastion SKUs.
  */
-@added(Versions.v2026_04_02_preview)
+@added(Versions.v2026_02_02_preview)
 union BastionSku {
   string,
 
@@ -2450,7 +2450,7 @@ model ContainerServiceNetworkProfile {
   /**
    * Profile of the Bastion Host associated with the managed cluster.
    */
-  @added(Versions.v2026_04_02_preview)
+  @added(Versions.v2026_02_02_preview)
   bastionProfile?: BastionProfile;
 
   /**
@@ -2551,7 +2551,7 @@ model AdvancedNetworkingSecurity {
 /**
  * Profile to enable managed Azure Bastion or reference to an existing Bastion for the managed cluster.
  */
-@added(Versions.v2026_04_02_preview)
+@added(Versions.v2026_02_02_preview)
 model BastionProfile {
   /**
    * Indicates whether managed bastion is enabled.
