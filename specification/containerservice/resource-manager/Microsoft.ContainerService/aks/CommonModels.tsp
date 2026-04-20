@@ -2595,7 +2595,7 @@ model BastionProfile {
    * This field cannot be updated. To change IP address after creation, please disable and re-enable the managed bastion with the new public IP address.
    */
   @visibility(Lifecycle.Create, Lifecycle.Read)
-  publicIPAddressId?: Azure.Core.armResourceIdentifier<[
+  publicIpAddressId?: Azure.Core.armResourceIdentifier<[
     {
       type: "Microsoft.Network/publicIPAddresses";
     }
