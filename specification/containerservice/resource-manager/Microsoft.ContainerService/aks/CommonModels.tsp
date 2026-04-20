@@ -936,7 +936,7 @@ union OutboundType {
   none: "none",
 }
 
-/*
+/**
  * The SKU of the managed Azure Bastion. The default is 'Standard'. See https://learn.microsoft.com/en-us/azure/bastion/bastion-sku-comparison for more information about the differences between Azure Bastion SKUs.
  */
 @added(Versions.v2026_02_02_preview)
